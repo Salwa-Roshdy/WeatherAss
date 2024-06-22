@@ -1,0 +1,117 @@
+body {
+    color: aliceblue;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.col-md-3 {
+    height: 700px;
+}
+
+.weather {
+    background-image: linear-gradient(to right, #2e28496b, #5cb8ca4d), url(../imgs/rain.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+
+}
+
+.location {
+    width: 20%;
+}
+
+.search {
+    padding-top: 0;
+
+    width: 60%;
+
+
+    margin-top: 80px;
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+#country-search {
+    height: 60px;
+    border-radius: 30px;
+    background-color: #212529cb !important;
+    color: aliceblue;
+
+}
+
+#country-search::placeholder {
+    color: aliceblue
+}
+
+#btn {
+    background-color: aqua;
+    padding-block: 10px;
+    padding-inline: 30px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+
+}
+
+.today-content {
+    width: 10%;
+}
+
+.degree {
+    width: 35%;
+    font-weight: 600;
+}
+
+.daily {
+    font-family: "Crimson Text",
+        serif;
+    border: none;
+
+
+}
+
+.daily .daily-day {
+    border-top-left-radius: 5%;
+    background-color: #3B5966;
+}
+
+.daily .daily-details {
+    background-color: rgba(0, 255, 255, 0.318);
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+
+}
+
+.daily #sticker {
+    font-size: 40px;
+}
+
+.weatherDetails i {
+    font-size: 25px;
+}
+
+.wind,
+.sun,
+.compass {
+    width: 20%;
+}
+
+.weatherDetails {
+    width: 100%
+}
+
+.daily-day h4 {
+    display: inline;
+
+
+}
+
+.daily-details span {
+    font-size: 25px;
+    color: blue;
+}
